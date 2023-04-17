@@ -61,5 +61,9 @@ print("\n\033[96mMESSAGE:", message, list_to_strings(message_number, message_cip
 #KEY
 print("\n\033[96mKEY:", key, list_to_strings(key_number, key_cipher),)
 #ADD
+for a in range(len(message)):
+    sum_number.append((message_number[a] + key_number[a]))
+
+print("\n\033[96mADD: ", list_to_strings(sum_number, mod))
 #MOD
 #CIPHERTEX
