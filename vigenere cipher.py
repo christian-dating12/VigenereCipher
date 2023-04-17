@@ -76,3 +76,10 @@ for c in mod_number:
         cipher += (str(letter_to_number_rev[c]) + " ")
 
 print("\n\033[96mCIPHERTEXT:", cipher)
+
+# Outro
+print("\033[90m=" *80)
+greet1 = "THANK YOU!"
+print("\033[92m" + pyfiglet.figlet_format(greet1, font = "bubble"))
+
+print("\033[90m=" *80)
