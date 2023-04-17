@@ -57,6 +57,7 @@ print("\033[90m=" *80)
 to_number(messages, message_number)
 to_number(keys, key_number)
 #MESSAGE
+print("\n\033[96mMESSAGE:", message, list_to_strings(message_number, message_cipher))
 #KEY
 #ADD
 #MOD
