@@ -66,4 +66,8 @@ for a in range(len(message)):
 
 print("\n\033[96mADD: ", list_to_strings(sum_number, mod))
 #MOD
+for b in range(len(message)):
+    mod_number.append((message_number[b] + key_number[b]) % 26)
+
+print("\n\033[96mMOD: ", list_to_strings(mod_number, mod))
 #CIPHERTEX
