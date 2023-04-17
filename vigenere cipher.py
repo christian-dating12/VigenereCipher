@@ -59,6 +59,7 @@ to_number(keys, key_number)
 #MESSAGE
 print("\n\033[96mMESSAGE:", message, list_to_strings(message_number, message_cipher))
 #KEY
+print("\n\033[96mKEY:", key, list_to_strings(key_number, key_cipher),)
 #ADD
 #MOD
 #CIPHERTEX
