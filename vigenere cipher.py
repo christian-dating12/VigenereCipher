@@ -71,3 +71,8 @@ for b in range(len(message)):
 
 print("\n\033[96mMOD: ", list_to_strings(mod_number, mod))
 #CIPHERTEX
+for c in mod_number:
+    if c in letter_to_number_rev:
+        cipher += (str(letter_to_number_rev[c]) + " ")
+
+print("\n\033[96mCIPHERTEXT:", cipher)
